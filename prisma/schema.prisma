@@ -1,0 +1,121 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  userId    String     @id @default(cuid())
+  email     String     @unique
+  password  String
+  firstName String
+  lastName  String
+  role      String
+  Author    Author?
+  Reviewer  Reviewer?
+  Organizer Organizer?
+}
+
+model Author {
+  author        User    @relation(fields: [authorId], references: [userId])
+  authorId      String  @id
+  createdPapers Paper[]
+}
+
+model Reviewer {
+  reviewer   User          @relation(fields: [reviewerId], references: [userId])
+  reviewerId String        @id
+  papers     PaperReview[]
+}
+
+model Organizer {
+  organizer       User      @relation(fields: [organizerId], references: [userId])
+  organizerId     String    @id
+  createdSessions Session[]
+}
+
+model Paper {
+  paperId         String        @id @default(cuid())
+  title           String
+  abstract        String
+  creator         Author        @relation(fields: [creatorId], references: [authorId])
+  creatorId       String
+  totalEvaluation Int           @default(0)
+  isReviewed      Boolean       @default(false)
+  reviews         PaperReview[]
+  authors         PaperAuthor[]
+  presentation    Presentation?
+}
+
+model Session {
+  sessionId     String         @id @default(cuid())
+  title         String
+  date          ConfDate       @relation(fields: [dateId], references: [confDateId])
+  dateId        Int
+  location      Location       @relation(fields: [locationId], references: [locationId])
+  locationId    String
+  creator       Organizer      @relation(fields: [creatorId], references: [organizerId])
+  creatorId     String
+  presentations Presentation[]
+}
+
+model Presentation {
+  paper     Paper    @relation(fields: [paperId], references: [paperId])
+  paperId   String   @id
+  session   Session  @relation(fields: [sessionId], references: [sessionId])
+  sessionId String
+  fromTime  DateTime
+  toTime    DateTime
+}
+
+model PaperReview {
+  paper        Paper    @relation(fields: [paperId], references: [paperId])
+  paperId      String
+  reviewer     Reviewer @relation(fields: [reviewerId], references: [reviewerId])
+  reviewerId   String
+  evaluation   Int?
+  contribution Int?
+  strengths    String?
+  weaknesses   String?
+  isReviewed   Boolean  @default(false)
+
+  @@id([paperId, reviewerId])
+}
+
+model PaperAuthor {
+  paperAuthorId String      @id @default(cuid())
+  paper         Paper       @relation(fields: [paperId], references: [paperId])
+  paperId       String
+  firstName     String
+  lastName      String
+  email         String
+  isPresenter   Boolean     @default(false)
+  affiliation   Institution @relation(fields: [affiliationId], references: [institutionId])
+  affiliationId String
+}
+
+model Institution {
+  institutionId String        @id @default(cuid())
+  name          String        @unique
+  paperAuthors  PaperAuthor[]
+}
+
+model Location {
+  locationId String    @id @default(cuid())
+  venueName  String
+  code       String
+  sessions   Session[]
+}
+
+model ConfDate {
+  confDateId Int       @id @default(autoincrement())
+  date       DateTime
+  sessions   Session[]
+}

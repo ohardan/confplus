@@ -1,0 +1,42 @@
+.paper {
+  animation: unshadow 0.3s;
+}
+
+.paper:hover {
+  animation: shadow 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shadow {
+  0% {
+    transform: translateY(0px);
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes unshadow {
+  0% {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+    box-shadow: none;
+  }
+}
+
+.show {
+  height: 200px;
+  padding: 10px;
+  transition: height 0.3s;
+}
+
+.collapse {
+  height: 1px;
+  padding: 0px;
+  transition: height 0.3s;
+}

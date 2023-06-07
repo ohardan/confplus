@@ -2,26 +2,95 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.background {
+  background-image: url("../public/images/qncc.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* width */
+::-webkit-scrollbar {
+  width: 13px;
+  height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.error {
+  animation: show-message 0.3s ease-in-out 1 normal forwards;
+}
+
+@keyframes show-message {
+  0% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(-5px);
+    opacity: 1;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
+.login-btn {
+  transition: background-color 0.1s, color 0.1s, border 0.1s, border-image 0.1s;
+}
+
+.login-btn:hover {
+  background-color: white;
+  background: white;
+  border: 3px solid;
+  border-image: linear-gradient(
+      63.18deg,
+      rgba(255, 238, 221, 1),
+      rgba(147, 129, 255, 1)
     )
-    rgb(var(--background-start-rgb));
+    1;
+  color: #9381ff;
+}
+
+.isfocused {
+  transform: translate(0, -30px);
+  font-size: 16px;
+  transition: transform 0.3s, font-size 0.3s;
+}
+
+.ram-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+}
+
+@layer base {
+  .my-btn {
+    @apply bg-cp-indigo
+    px-4
+    hover:bg-cp-ghost-white 
+    hover:text-cp-indigo
+    hover:border-cp-indigo 
+    hover:border-2 
+    text-white 
+    transition-all
+    duration-75;
+  }
 }
