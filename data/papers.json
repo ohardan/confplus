@@ -1,0 +1,58 @@
+[
+  {
+    "id": "UKw2IFroPxXFvUPZCRUYP",
+    "title": "Information Processing Research Paper",
+    "abstract": "This sample education research paper on information processing features: 4400 words (approx. 14 pages) and a bibliography with 26 sources. Browse other research paper examples for more inspiration. If you need a thorough research paper written according to all the academic standards, you can always turn to our experienced writers for help. This is how your paper can get an A! Feel free to contact our writing service for professional assistance. We offer high-quality assignments for reasonable rates.",
+    "creatorID": 20,
+    "authors": [
+      {
+        "firstName": "Mayer",
+        "lastName": "Mayer",
+        "email": "mm@author.com",
+        "affiliation": "Lusail University",
+        "isPresenter": true
+      },
+      {
+        "firstName": "Wittrock",
+        "lastName": "Wittrock",
+        "email": "ww@author.com",
+        "affiliation": "HEC Paris in Qatar",
+        "isPresenter": false
+      }
+    ],
+    "reviewers": [
+      {
+        "id": 13,
+        "firstName": "Jacob",
+        "lastName": "Clark",
+        "email": "jacobclark@reviewer.com",
+        "role": "reviewer"
+      },
+      {
+        "id": 8,
+        "firstName": "Sophie",
+        "lastName": "Miller",
+        "email": "sophiemiller@reviewer.com",
+        "role": "reviewer"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewerID": 8,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      },
+      {
+        "reviewerID": 13,
+        "evaluation": 0,
+        "contribution": 3,
+        "strength": "interesting",
+        "weakness": "meh",
+        "isReviewed": true
+      }
+    ]
+  }
+]

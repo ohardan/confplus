@@ -1,0 +1,14 @@
+[
+  { "venueName": "Alkindi Hall", "code": "B05-231" },
+  { "venueName": "Ibn Khaldoon Hall", "code": "B11" },
+  { "venueName": "Library Auditorium", "code": "B13-117" },
+  { "venueName": "Research Complex Auditorium", "code": "H10" },
+  { "venueName": "College of Law Auditorium", "code": "I09-B239" },
+  { "venueName": "College of Law Hall B114", "code": "I09-B114" },
+  { "venueName": "College of Education Auditorium", "code": "I10-C306" },
+  {
+    "venueName": "College of Education Underground Halls",
+    "code": "I10-B004"
+  },
+  { "venueName": "Student Affairs Building Auditorium", "code": "I11-C101" }
+]
