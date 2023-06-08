@@ -90,3 +90,7 @@ export async function createPaperAction(formdata) {
 export async function getSummaryAction() {
   return await repo.getSummary();
 }
+
+export async function readScheduleAction() {
+  return await repo.readSchedule();
+}

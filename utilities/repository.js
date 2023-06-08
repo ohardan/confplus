@@ -330,6 +330,35 @@ export async function readAuthorPapers(authorId) {
   }
 }
 
+export async function readSchedule() {
+  try {
+    const result = await prisma.confDate.findMany({
+      include: {
+        sessions: {
+          include: {
+            location: true,
+            presentations: {
+              include: { paper: { include: { authors: true } } },
+            },
+          },
+        },
+      },
+    });
+
+    if (!result) {
+      return {
+        error: 2,
+        message: `No Schedule Found`,
+      };
+    }
+
+    return { error: 0, payload: result };
+  } catch (error) {
+    console.error(error.message);
+    return { error: 1, message: "Database Error" };
+  }
+}
+
 export async function getSummary() {
   try {
     const submittedPapersCount = (
