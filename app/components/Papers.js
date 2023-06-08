@@ -99,7 +99,7 @@ function Paper({ paper, isReviewer }) {
         <a
           className="my-btn text-lg"
           download={`${paper.title}_${paper.paperId}.pdf`}
-          href={`http://localhost:3000/papers/${paper.paperId}.pdf`}>
+          href={`http://confplus-flame.vercel.app/papers/${paper.paperId}.pdf`}>
           Download Paper
         </a>
       </div>
