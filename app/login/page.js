@@ -25,7 +25,11 @@ export default function Login() {
             const result = await loginAction(formdata);
             if (result.error === 0) {
               localStorage.setItem("user", JSON.stringify(result.payload));
-              redirect("/");
+              if (result.payload.role === "organizer") {
+                redirect("/");
+              } else {
+                redirect("/pages/my-papers");
+              }
             }
             setErrorMsg(result.message);
           }}>

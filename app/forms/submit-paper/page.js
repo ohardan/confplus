@@ -45,7 +45,7 @@ export default function SubmitPaper() {
           name="authorsCount"
           value={authorsCount}
         />
-        <div className="flex flex-col gap-4 border-b-2 pb-4 col-span-1 lg:border-b-0">
+        <div className="flex flex-col gap-4 border-b-2 pb-4 col-span-1 lg:border-b-0 lg:pr-8 lg:border-r-2">
           <div className="flex flex-col">
             <label
               htmlFor="title"
@@ -106,9 +106,9 @@ export default function SubmitPaper() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-4 col-span-3">
+        <div className="flex flex-col gap-4 col-span-3 lg:pl-4 items-center">
           <h2 className="text-xl font-semibold">Authors</h2>
-          <div className="ram-grid lg:h-[400px] lg:overflow-y-scroll">
+          <div className="ram-grid lg:h-[400px] w-full lg:overflow-y-scroll">
             {authorsList.map((author, index) => (
               <AuthorCard
                 key={index}

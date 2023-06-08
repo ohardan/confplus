@@ -22,7 +22,7 @@ export default function Header({ bgColor }) {
         />
       </div>
 
-      <nav className="flex gap-6 lg:order-1 lg:basis-full">
+      <nav className="flex gap-6 flex-wrap justify-center lg:flex-nowrap lg:justify-start lg:order-1 lg:basis-full">
         <Link
           href="/"
           className="hover:underline">
