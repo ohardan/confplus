@@ -110,7 +110,7 @@ model Institution {
 model Location {
   locationId String    @id @default(cuid())
   venueName  String
-  code       String
+  code       String    @unique
   sessions   Session[]
 }
 

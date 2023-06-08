@@ -39,6 +39,62 @@
     "reviews": [
       {
         "reviewerID": 8,
+        "evaluation": 2,
+        "contribution": 4,
+        "strength": "Great",
+        "weakness": "Needs improvement",
+        "isReviewed": true
+      },
+      {
+        "reviewerID": 13,
+        "evaluation": 0,
+        "contribution": 3,
+        "strength": "interesting",
+        "weakness": "anything",
+        "isReviewed": true
+      }
+    ]
+  },
+  {
+    "id": "ubfZb2Ne7bYk8JQmivXJ-",
+    "title": "Conference Web App",
+    "abstract": "Creating a web app to manage web conferences. The app will allow users to create conferences, add papers, add reviewers, and assign reviewers to papers. The app will also allow reviewers to review papers and submit their reviews. Finally, the app will allow the conference chair to make decisions on papers and notify authors of the decisions.",
+    "creatorID": 20,
+    "authors": [
+      {
+        "firstName": "Osama",
+        "lastName": "Hardan",
+        "email": "oh@qu.edu.qa",
+        "affiliation": "Qatar University",
+        "isPresenter": true
+      },
+      {
+        "firstName": "Ibrahim",
+        "lastName": "Alsalimy",
+        "email": "ia@qu.edu.qa",
+        "affiliation": "Qatar University",
+        "isPresenter": false
+      }
+    ],
+    "reviewers": [
+      {
+        "id": 10,
+        "firstName": "Mia",
+        "lastName": "Wilson",
+        "email": "miawilson@reviewer.com",
+        "role": "reviewer"
+      },
+      {
+        "id": 12,
+        "firstName": "Ava",
+        "lastName": "Lee",
+        "email": "avalee@reviewer.com",
+        "role": "reviewer"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewerID": 10,
         "evaluation": null,
         "contribution": null,
         "strength": null,
@@ -46,12 +102,488 @@
         "isReviewed": false
       },
       {
-        "reviewerID": 13,
-        "evaluation": 0,
+        "reviewerID": 12,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      }
+    ]
+  },
+  {
+    "id": "j6EDxmHVGthGYA95AaF5l",
+    "title": "IOT TECHNOLOGIES FOR SHIMLA CITY",
+    "abstract": "The large deployment of Internet of Things (IoT) is actually enabling Smart City projects and initiatives all over the world. Objects used in daily life are being equipped with electronic devices and protocol suites in order to make them interconnected and connected to the Internet. According to a recent Gartner study, 50 billion connected objects have been deployed in smart cities by 2020. These connected objects will make our cities smart. However, they will also open up risks and privacy issues.",
+    "creatorID": 20,
+    "authors": [
+      {
+        "firstName": "Anshul",
+        "lastName": "Kalia",
+        "email": "ak@shimla.com",
+        "affiliation": "University of Doha for Science and Technology",
+        "isPresenter": true
+      },
+      {
+        "firstName": "Rishi",
+        "lastName": "Rana",
+        "email": "rr@shimla.com",
+        "affiliation": "University of Doha for Science and Technology",
+        "isPresenter": false
+      },
+      {
+        "firstName": "Sumesh",
+        "lastName": "Sood",
+        "email": "ss@shimla.com",
+        "affiliation": "University of Doha for Science and Technology",
+        "isPresenter": false
+      },
+      {
+        "firstName": "Aayushi",
+        "lastName": "Kalia",
+        "email": "aak@shimla.com",
+        "affiliation": "University of Doha for Science and Technology",
+        "isPresenter": false
+      }
+    ],
+    "reviewers": [
+      {
+        "id": 11,
+        "firstName": "Noah",
+        "lastName": "Thomas",
+        "email": "noahthomas@reviewer.com",
+        "role": "reviewer"
+      },
+      {
+        "id": 3,
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "email": "bobsmith@reviewer.com",
+        "role": "reviewer"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewerID": 11,
+        "evaluation": 1,
         "contribution": 3,
-        "strength": "interesting",
-        "weakness": "meh",
+        "strength": "Good Idea",
+        "weakness": "Not new",
         "isReviewed": true
+      },
+      {
+        "reviewerID": 3,
+        "evaluation": 1,
+        "contribution": 2,
+        "strength": "Decent",
+        "weakness": "Needs improvement",
+        "isReviewed": true
+      }
+    ]
+  },
+  {
+    "id": "PN75aVPQtQg1MMM_D4wVP",
+    "title": "Unlocking The Smart Home",
+    "abstract": "Purpose This study examines the factorial structure of salient user beliefs associated with smart locks. We also examine the predictive value of the identified constructs on the smart lock adoption intention and we evaluate gender differences in the predictive value of the identified constructs.",
+    "creatorID": 18,
+    "authors": [
+      {
+        "firstName": "Stanislav",
+        "lastName": "Mamonov",
+        "email": "sm@montclair.com",
+        "affiliation": "Texas A&M University at Qatar",
+        "isPresenter": false
+      },
+      {
+        "firstName": "Raquel",
+        "lastName": "Benbunan-Fich",
+        "email": "rb@baruch.com",
+        "affiliation": "Carnegie Mellon University in Qatar",
+        "isPresenter": true
+      }
+    ],
+    "reviewers": [
+      {
+        "id": 9,
+        "firstName": "Luke",
+        "lastName": "Harris",
+        "email": "lukeharris@reviewer.com",
+        "role": "reviewer"
+      },
+      {
+        "id": 5,
+        "firstName": "David",
+        "lastName": "Brown",
+        "email": "davidbrown@reviewer.com",
+        "role": "reviewer"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewerID": 9,
+        "evaluation": 2,
+        "contribution": 4,
+        "strength": "Great",
+        "weakness": "Nothing",
+        "isReviewed": true
+      },
+      {
+        "reviewerID": 5,
+        "evaluation": 1,
+        "contribution": 4,
+        "strength": "Beneficial",
+        "weakness": "Reccomenedaions not clear",
+        "isReviewed": true
+      }
+    ]
+  },
+  {
+    "id": "50SM_7OfS-FtNHnV4x36Q",
+    "title": "Language Learning Strategies Employed by English Majors at Qatar University",
+    "abstract": "This study discusses the type and frequency of language learning strategies used by Qatar University English majors. The subjects were 120 Arabs enrolled in the Department of Foreign Languages representing different learning levels (Year 1-4). Oxford (1990a: 293-300) Strategies Inventory of Language Learning (SILL) questionnaire was used. The results showed that the students used learning strategies with high to medium frequency. They preferred to use metacognitive strategies most (75.3%), whereas they showed the least use of affective strategies (58.6%).",
+    "creatorID": 18,
+    "authors": [
+      {
+        "firstName": "Haifa",
+        "lastName": "Al-Buainain",
+        "email": "hb@qu.edu.qa",
+        "affiliation": "Qatar University",
+        "isPresenter": true
+      }
+    ],
+    "reviewers": [
+      {
+        "id": 3,
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "email": "bobsmith@reviewer.com",
+        "role": "reviewer"
+      },
+      {
+        "id": 6,
+        "firstName": "Emily",
+        "lastName": "Davis",
+        "email": "emilydavis@reviewer.com",
+        "role": "reviewer"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewerID": 3,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      },
+      {
+        "reviewerID": 6,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      }
+    ]
+  },
+  {
+    "id": "Onhk_DJZVL4crdupqVokv",
+    "title": "Web Visual Development Platform Based on Microservice",
+    "abstract": "In order to meet the needs of diversied terminal networks, a Web visual development platform based on microservices is\r\nproposed. According to the characteristics of network data distribution and resource attributes in the big data environment, select\r\nthe service-oriented architecture as the basic data collaborative management system, establish a sample set containing various data\r\ntypes, calculate the density distribution of each type of data in the continuous function based on the sample set, and obtain the\r\nweight probability of the maximum and minimum density data of the data sample set by calculating the dispersion function.\r\nFinally, the weight of nodes in the visualization platform is established as the weight in the visualization matrix, and the high\r\nprobability of edge subdivision is used to enhance the balance of edge development matrix. Comparative experiments show that\r\nthe proposed method has strong applicability and high visualization eect for data with complex characteristics, data weight\r\nprobability conforms to the expected value and Gaussian distribution, and the overall performance of the platform is excellent.",
+    "creatorID": 17,
+    "authors": [
+      {
+        "firstName": "Lvguan",
+        "lastName": "Xu",
+        "email": "lx@dohainst.qa",
+        "affiliation": "Doha Institute for Graduate Studies",
+        "isPresenter": false
+      },
+      {
+        "firstName": "Dazhong",
+        "lastName": "Wu",
+        "email": "dw@hec.qa",
+        "affiliation": "HEC Paris in Qatar",
+        "isPresenter": true
+      },
+      {
+        "firstName": "Zhenying",
+        "lastName": "Chen",
+        "email": "zc@nw.qa",
+        "affiliation": "Northwestern University in Qatar",
+        "isPresenter": false
+      }
+    ],
+    "reviewers": [
+      {
+        "id": 8,
+        "firstName": "Sophie",
+        "lastName": "Miller",
+        "email": "sophiemiller@reviewer.com",
+        "role": "reviewer"
+      },
+      {
+        "id": 12,
+        "firstName": "Ava",
+        "lastName": "Lee",
+        "email": "avalee@reviewer.com",
+        "role": "reviewer"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewerID": 8,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      },
+      {
+        "reviewerID": 12,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      }
+    ]
+  },
+  {
+    "id": "hOffYzmjcruD2jkVCRece",
+    "title": "Does modality principle occur in the learning of C++ ",
+    "abstract": "This study examined whether the modality principle occurs or not in the learning of C++ computer\r\nprogramming using screencasting. According to Mayer and Clark (2011), the modality principle is\r\ndefined as presenting words as speech rather than on-screen text is more effective in learning. In other\r\nwords, the learning process will be more effective when information is explained by audio narrations\r\nrather than on-screen text. A true experimental pre-test and post-test research design was conducted to\r\ndetermine the modality effects.",
+    "creatorID": 19,
+    "authors": [
+      {
+        "firstName": "Chin-Soon",
+        "lastName": "Cheah",
+        "email": "cc@lu.edu.qa",
+        "affiliation": "Lusail University",
+        "isPresenter": true
+      }
+    ],
+    "reviewers": [
+      {
+        "id": 9,
+        "firstName": "Luke",
+        "lastName": "Harris",
+        "email": "lukeharris@reviewer.com",
+        "role": "reviewer"
+      },
+      {
+        "id": 5,
+        "firstName": "David",
+        "lastName": "Brown",
+        "email": "davidbrown@reviewer.com",
+        "role": "reviewer"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewerID": 9,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      },
+      {
+        "reviewerID": 5,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      }
+    ]
+  },
+  {
+    "id": "dz63bQQ-G1_HahQqlNuys",
+    "title": "Implications of Artificial Intelligence Algorithms ",
+    "abstract": "Motor neuron diseases (MNDs) are a group of chronic neurological disorders characterized\r\nby the progressive failure of the motor system. Currently, these disorders do not have a definitive\r\ntreatment; therefore, it is of huge importance to propose new and more advanced diagnoses and\r\ntreatment options for MNDs. Nowadays, artificial intelligence is being applied to solve several reallife problems in different areas, including healthcare.",
+    "creatorID": 19,
+    "authors": [
+      {
+        "firstName": "Diego",
+        "lastName": "Lopez-Bernal",
+        "email": "dl@univ.com",
+        "affiliation": "Weill Cornell Medical College in Qatar",
+        "isPresenter": true
+      },
+      {
+        "firstName": "David",
+        "lastName": "Balderas",
+        "email": "db@univ.com",
+        "affiliation": "Georgetown University in Qatar",
+        "isPresenter": false
+      },
+      {
+        "firstName": "Pedro",
+        "lastName": "Ponce",
+        "email": "pp@univ.com",
+        "affiliation": "Carnegie Mellon University in Qatar",
+        "isPresenter": false
+      },
+      {
+        "firstName": "Arturo",
+        "lastName": "Molina",
+        "email": "am@univ.com",
+        "affiliation": "Carnegie Mellon University in Qatar",
+        "isPresenter": false
+      },
+      {
+        "firstName": "Mario",
+        "lastName": " Rojas",
+        "email": "mr@univ.com",
+        "affiliation": "Weill Cornell Medical College in Qatar",
+        "isPresenter": false
+      }
+    ],
+    "reviewers": [
+      {
+        "id": 10,
+        "firstName": "Mia",
+        "lastName": "Wilson",
+        "email": "miawilson@reviewer.com",
+        "role": "reviewer"
+      },
+      {
+        "id": 3,
+        "firstName": "Bob",
+        "lastName": "Smith",
+        "email": "bobsmith@reviewer.com",
+        "role": "reviewer"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewerID": 10,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      },
+      {
+        "reviewerID": 3,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      }
+    ]
+  },
+  {
+    "id": "8Qm0qJ_pl_XXcU5gRvJUo",
+    "title": "Quantum CPU and Quantum Simulating",
+    "abstract": "Simulating quantum systems has such a meaning that using a specially designed quantum\r\nsystem, for example quantum computer, which is called a simulated system, to simulate\r\nanother so-called physical quantum system. In 1982, Richard Feynman first proposed that a\r\nquantum system would be more efficiently simulated by a computer based on the principles\r\nof quantum mechanics rather than by one based on the principles of classical mechanics.",
+    "creatorID": 16,
+    "authors": [
+      {
+        "firstName": "An Min",
+        "lastName": "WANG",
+        "email": "AnW@qu.edu.qa",
+        "affiliation": "Qatar University",
+        "isPresenter": true
+      }
+    ],
+    "reviewers": [
+      {
+        "id": 4,
+        "firstName": "Alice",
+        "lastName": "Johnson",
+        "email": "alicejohnson@reviewer.com",
+        "role": "reviewer"
+      },
+      {
+        "id": 10,
+        "firstName": "Mia",
+        "lastName": "Wilson",
+        "email": "miawilson@reviewer.com",
+        "role": "reviewer"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewerID": 4,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      },
+      {
+        "reviewerID": 10,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      }
+    ]
+  },
+  {
+    "id": "rKysKizPxkrl6DMlL3chn",
+    "title": "Comparing Algorithms for Dynamic Speed-Setting of a Low-Power CPU",
+    "abstract": "To take advantage of the full potential of ubiquitous computing, we will need systems which minimize powerconsumption. Weiser et al. and others have suggested\r\nthat this may be accomplished by a CPU which dynamically changes speed and voltage, thereby saving energy\r\nby spreading run cycles into idle time. Here we continue\r\nthis research, using a simulation to compare a number of\r\npolicies for dynamic speed-setting. Our work clarifies a\r\nfundamental power vs. delay tradeoff, as well as the role\r\nof prediction and of smoothing in dynamic speed-setting\r\npolicies. We conclude that success seemingly depends\r\nmore on simple smoothing algorithms than on sophisticated prediction techniques, but defer to the replication\r\nof these results on future variable-speed systems.",
+    "creatorID": 16,
+    "authors": [
+      {
+        "firstName": "Kinshuk",
+        "lastName": "Govil",
+        "email": "kg@univ.com",
+        "affiliation": "Community College of Qatar",
+        "isPresenter": false
+      },
+      {
+        "firstName": "Edwin",
+        "lastName": "Chan",
+        "email": "ec@univ.com",
+        "affiliation": "Community College of Qatar",
+        "isPresenter": true
+      },
+      {
+        "firstName": "Hal",
+        "lastName": "Hal Wasserman",
+        "email": "hw@univ.com",
+        "affiliation": "Community College of Qatar",
+        "isPresenter": false
+      }
+    ],
+    "reviewers": [
+      {
+        "id": 8,
+        "firstName": "Sophie",
+        "lastName": "Miller",
+        "email": "sophiemiller@reviewer.com",
+        "role": "reviewer"
+      },
+      {
+        "id": 9,
+        "firstName": "Luke",
+        "lastName": "Harris",
+        "email": "lukeharris@reviewer.com",
+        "role": "reviewer"
+      }
+    ],
+    "reviews": [
+      {
+        "reviewerID": 8,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
+      },
+      {
+        "reviewerID": 9,
+        "evaluation": null,
+        "contribution": null,
+        "strength": null,
+        "weakness": null,
+        "isReviewed": false
       }
     ]
   }

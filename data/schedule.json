@@ -1,1 +1,43 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "IOT",
+    "date": 1,
+    "location": "I10-B004",
+    "creatorID": 1,
+    "presentations": [
+      {
+        "paperID": "j6EDxmHVGthGYA95AaF5l",
+        "fromTime": "2023-07-01T08:00:00.000Z",
+        "toTime": "2023-07-01T08:40:00.000Z"
+      },
+      {
+        "paperID": "PN75aVPQtQg1MMM_D4wVP",
+        "fromTime": "2023-07-01T09:00:00.000Z",
+        "toTime": "2023-07-01T09:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Information",
+    "date": 2,
+    "location": "B05-231",
+    "creatorID": 1,
+    "presentations": [
+      {
+        "paperID": "UKw2IFroPxXFvUPZCRUYP",
+        "fromTime": "2023-07-02T14:30:00.000Z",
+        "toTime": "2023-07-02T15:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "",
+    "date": 2,
+    "location": "H10",
+    "creatorID": 2,
+    "presentations": []
+  }
+]
